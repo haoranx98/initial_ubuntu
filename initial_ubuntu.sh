@@ -39,7 +39,7 @@ dpkg -i baidunetdisk_4.3.0_amd64.deb
 wget https://dldir1.qq.com/music/clntupate/linux/deb/qqmusic_1.1.4_amd64.deb
 dpkg -i qqmusic_1.1.4_amd64.deb
 wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
-dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb'
+dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 wget https://archive.ubuntukylin.com/software/pool/partner/weixin_2.1.1_amd64.deb
 dpkg -i weixin_2.1.1_amd64.deb
 
