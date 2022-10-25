@@ -2,7 +2,7 @@
 
 apt update -y
 apt upgrade -y
-apt install vim git gcc g++ build-essential cmake cmake-qt-gui ibus-libpinyin ntpdate -y
+apt install vim git gcc g++ build-essential cmake cmake-qt-gui ibus-libpinyin ntpdate libminizip1 -y
 apt install wget curl axel -y
 
 ntpdate time.windows.com
@@ -42,5 +42,9 @@ wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_2019
 dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 wget https://archive.ubuntukylin.com/software/pool/partner/weixin_2.1.1_amd64.deb
 dpkg -i weixin_2.1.1_amd64.deb
-
-
+wget https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-6.22.826-Linux-x86.deb
+dpkg -i VNC-Viewer-6.22.826-Linux-x86.deb
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+dpkg -i teamviewer_amd64.deb
+wget https://newdl.todesk.com/linux/todesk-v4.3.1.0-amd64.deb
+dpkg -i todesk-v4.3.1.o-amd64.deb
